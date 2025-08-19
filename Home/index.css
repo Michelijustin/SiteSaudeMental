@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+#boas-vindas {
+    background-color: white;
+    border-bottom: 4px solid #D8B4FE;
+    padding: 40px;
+    text-align: center;
+    background-image: url('../img/pexels-behram-official-521340803-33456183-removebg-preview.png');
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#boas-vindas h1 {
+    color: #2b3a3f; /* tom mais escuro para leitura */
+}
+#boas-vindas p {
+    color: #555;
+}
+
+.cor-card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #BEE3DB;
+    padding: 20px;
+    border: 2px solid #FFE5B4;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    background-color: #A8DADC; /* azul claro no hover */
+}
+.card h3 {
+    color: #2b3a3f;
+}
+.card p {
+    color: #444;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+#mensagem {
+    display: flex;
+    background-color: #D8B4FE;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    color: #2b3a3f;
+    margin: 30px 0px 30px;
+}
+
+.mulher-relaxando{
+    width: 400px;
+}
+
+footer{
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.324);
+}
+
+footer p{
+    color: rgba(0, 0, 0, 0.683);
+}
