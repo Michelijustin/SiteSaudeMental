@@ -39,4 +39,15 @@ header div{
     justify-content: space-evenly;
 }
 
+footer{
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.324);
+}
+
+footer p{
+    color: rgba(0, 0, 0, 0.683);
+}
+
 

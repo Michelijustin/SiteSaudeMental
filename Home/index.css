@@ -76,17 +76,6 @@
     width: 400px;
 }
 
-footer{
-    text-align: center;
-    margin: 40px 0px 40px 0px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(0, 0, 0, 0.324);
-}
-
-footer p{
-    color: rgba(0, 0, 0, 0.683);
-}
-
 @media(max-width:600px){
     #boas-vindas{
         padding: 70px 40px 70px 40px;
