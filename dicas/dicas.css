@@ -40,3 +40,33 @@
   color: black;
   margin-bottom: 10px;
 }
+
+.dica-card a{
+    display: block;
+    text-align: center;
+}
+
+.botao{
+    /*font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #D8B4FE;
+    border: 0px;
+    cursor: pointer;*/
+    background: linear-gradient(135deg, #6C63FF, #9B5DE5);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.botao:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #9B5DE5, #6C63FF);
+}
