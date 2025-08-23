@@ -21,9 +21,8 @@
 }
 
 .dica-card {
-  background-color: #e0f7f4;
-  /*border: 1px solid #b2dfdb;*/
-  border: 2px solid #D8B4FE;
+  background-color: #f4f6f8;
+  border: 2px solid #B388EB;
   border-radius: 12px;
   padding: 20px;
   text-align: left;
@@ -37,7 +36,7 @@
 
 .dica-card h3 {
   /*color: #00695c;*/
-  color: black;
+  color: #2C3E50;
   margin-bottom: 10px;
 }
 

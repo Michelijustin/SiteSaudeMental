@@ -1,0 +1,178 @@
+.praticas {
+  padding: 50px 20px;
+  background: linear-gradient(to bottom, #e8fdf9, #F6F5F3);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.praticas h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.subtitulo {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.praticas-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.pratica-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pratica-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.pratica-card .icone {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.pratica-card h3 {
+  font-size: 1.3rem;
+  color: #004d40;
+  margin-bottom: 8px;
+}
+
+.pratica-card p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.pratica-card iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 12px;
+}
+
+.border {
+  border: 1px solid rgba(0, 0, 0, 0.123);
+  margin: 60px 20px;
+}
+
+
+.container-respiracao{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+
+.card-respiracao {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around; 
+  padding: 20px;
+}
+
+.card-respiracao img{
+  max-width: 500px;
+  max-height:500px;
+}
+
+.card-respiracao .info-respira{
+  max-width: 500px;
+}
+
+.card-respiracao p {
+  font-size: 17px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;  /* 🔹 mantém só o parágrafo justificado */
+}
+
+.card-respiracao ul {
+  list-style-position: inside;
+  list-style-type: circle;
+  font-size: 17px;
+  color: #666;
+}
+
+.card-respiracao h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-respiracao h3{
+  text-align: center;
+  margin: 40px 0px 20px 0px;
+}
+
+.aplicativo{
+  border: 1px solid rgba(0, 0, 0, 0.418);
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.aplicativo a{
+  text-decoration: none;
+}
+
+.app-info {
+  font-size: 16px;
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+}
+
+.app-info span {
+  font-weight: bold;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.79);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn-experimente {
+   background: linear-gradient(135deg, #6C63FF, #9B5DE5);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    display: block;
+    margin: auto;
+}
+
+.btn-experimente:hover {
+  transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #9B5DE5, #6C63FF);
+}
+
+@media(max-width:510px){
+  .card-respiracao img{
+    width: 100%;
+  }
+}
+
+@media(max-width:1021px){
+  .card-respiracao img{
+    margin-bottom: 30px;
+  }
+}
