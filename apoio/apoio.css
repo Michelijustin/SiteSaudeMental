@@ -1,4 +1,4 @@
-.apoio {
+/*.apoio {
   padding: 50px 20px;
   background: #f3f9f8;
   text-align: center;
@@ -63,6 +63,93 @@
 
 .botao-apoio:hover {
   background: #1b5e20;
+}
+
+.link {
+  display: block;
+  color: #2e7d32;
+  text-decoration: none;
+  margin-top: 6px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+*/
+
+.apoio {
+  background-color: #F5F3FF; /* mesma cor suave das outras páginas */
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.apoio p{
+   color: #555;
+   font-size: 17px;
+}
+
+.apoio h1, .apoio h2 {
+  color: #2c3e50; /* roxo usado nos títulos das outras páginas */
+  text-align: center;
+}
+
+.apoio h2{
+  margin-top: 40px;
+}
+
+.apoio-container ,.recursos{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.apoio-card ,.recurso{
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.apoio-card:hover ,.recurso{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.apoio-card h3 {
+  font-size: 1.3rem;
+  color: #1b5e20;
+  margin-bottom: 10px;
+}
+
+.apoio-card p , .recurso p{
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.botao-apoio ,.botao-recurso{
+  display: inline-block;
+  background: linear-gradient(135deg, #6C63FF, #9B5DE5);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.botao-apoio:hover ,.botao-recurso:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  background: linear-gradient(135deg, #9B5DE5, #6C63FF);
 }
 
 .link {

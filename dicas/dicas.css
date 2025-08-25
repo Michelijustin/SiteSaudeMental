@@ -46,12 +46,6 @@
 }
 
 .botao{
-    /*font-size: 14px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #D8B4FE;
-    border: 0px;
-    cursor: pointer;*/
     background: linear-gradient(135deg, #6C63FF, #9B5DE5);
     color: white;
     border: none;
